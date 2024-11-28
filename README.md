@@ -5,7 +5,7 @@ This repository accompanies the paper Advancing Object-Centric Process Mining wi
 ## Repository Contents
 1. Running Example
 The running-example/ folder contains:
-* Code: Jupyter notebooks implementing the methods described in the paper using the running example.
+* Code: Jupyter notebooks implementing the methods described in the paper using the running example, see [here](running-example/notebooks/demo.ipynb)
 * Data: Example event logs that can be used to replicate the methods.
 
 Explore the example to gain a hands-on understanding of how multi-dimensional data operations like drill-down, roll-up, fold, and unfold enhance Object-Centric Process Mining.

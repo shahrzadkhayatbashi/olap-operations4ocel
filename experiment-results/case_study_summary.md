@@ -68,7 +68,7 @@ Here is also some information about the tEKG we exported for 2014:
 
 The schema is visualized here:
 
-<img src="figures/Figure_2024_Schema.png.png" width="600">
+<img src="figures/Figure_2024_Schema.png.png" width="300">
 
 The types of nodes and relations and the count of each elements are listed below for teh year 2024:
 

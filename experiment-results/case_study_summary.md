@@ -60,7 +60,11 @@ Here is the OC-DFG based on the drilled-down and unfolded log that enabled the d
 
 ## Lowest Fitness
 
-We investigated two groups with the lowest fitness after drilling down and unfolding, both of which belonged to 2024. In these two groups, we observed a high degree of member turnover. This graph was manually altered from the tEKG to color relations differently for demonstration purposes.
+We investigated two groups with the lowest fitness after drilling down and unfolding, both of which belonged to 2024. Here are two groups and students who participated in those in addition to groups that they moved to:
+
+<img src="figures/Figure_2024_LoweFitnessGroupsBeforeManualChange.png" alt="Groups with Lowest Fitness" width="1200">
+
+To make the graph readable, the graph was manually altered from the tEKG to color relations differently for demonstration purposes, as shown bellow. In these two groups, we observed a high degree of member turnover. 
 
 <img src="figures/Figure_Two_Groups_With_Lowest_Fitness.png" alt="Groups with Lowest Fitness" width="1200">
 

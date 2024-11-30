@@ -101,6 +101,8 @@ tEKG size for 2024:
 | REL     | Relationship | 2037   |
 | SNAPSHOT| Relationship | 1348   |
 
+* The size pertains to all events captured in the dataset. However, the case study specifically focuses on events related to submission boxes, where students submitted their assignments. Consequently, we filtered out events associated with course administration, as well as events such as students viewing materials, videos, or other unrelated activities.
+
 ---
 
 ## Conclusion

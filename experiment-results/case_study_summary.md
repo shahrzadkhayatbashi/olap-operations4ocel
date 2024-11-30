@@ -64,6 +64,43 @@ We investigated two groups with the lowest fitness after drilling down and unfol
 
 <img src="figures/Figure_Two_Groups_With_Lowest_Fitness.png" alt="Groups with Lowest Fitness" width="1200">
 
+Here is also some information about the tEKG we exported for 2014:
+
+The schema is visualized here:
+
+<img src="figures/Figure_2024_Schema.png" width="600">
+
+The types of nodes and relations and the count of each elements are listed below:
+
+
+```sql
+// Retrieve node types and counts
+MATCH (n)
+UNWIND labels(n) AS Label
+RETURN Label AS Type, COUNT(*) AS Count, 'Node' AS ElementType
+UNION
+// Retrieve relationship types and counts
+MATCH ()-[r]->()
+RETURN type(r) AS Type, 'Relationship' AS ElementType, COUNT(*) AS Count
+ORDER BY ElementType, Count DESC;
+```
+
+```csv
+Type,ElementType,Count
+LOG,Node,1
+CLASS,Node,8
+EVENT,Node,38313
+ENTITY,Node,2426
+SNAPSHOT,Node,2307
+CORR,Relationship,3822311
+DF,Relationship,180799
+HAS,Relationship,38313
+OBSERVED,Relationship,38313
+DERIVED,Relationship,4074
+REL,Relationship,2037
+SNAPSHOT,Relationship,1348
+```
+
 ---
 
 ## Conclusion

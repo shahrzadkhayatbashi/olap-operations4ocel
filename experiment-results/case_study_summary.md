@@ -4,7 +4,7 @@ This document presents the key results from the case study conducted as part of 
 
 <img src="figures/Fitness_Precisions.png" alt="Fitness and Precision Overview" width="600">
 
-The precision and fitness were calculated for 71 (out of 91) groups. We encountered timeouts when calculating these measures for 20 groups, half of which belonged to 2023. Observing the OC-DFG for 2023 reveals a less structured process compared to other years, leading to more complex process models. This complexity made the OC-Petri net models too intricate for calculating precision and fitness measures. 
+The precision and fitness were calculated for 71 (out of 91) groups. We encountered timeouts when calculating these measures for 20 groups, 10 of these cases belonged to 2023. Observing the OC-DFG for 2023 reveals a less structured process compared to other years, leading to more complex process models. This complexity made the OC-Petri net models too intricate for calculating precision and fitness measures. 
 
 The high fluctuation in 2023 stems from a significant change in that year: the introduction of a new track, "Green BPM," and the decision to make the "Process Mining" track optional. This choice led to a less structured process, adding complexity as students followed different tracks. In 2024, this change was revoked, restoring a more structured learning path.
 
@@ -64,7 +64,7 @@ We investigated two groups with the lowest fitness after drilling down and unfol
 
 <img src="figures/Figure_2024_LoweFitnessGroupsBeforeManualChange.png" alt="Groups with Lowest Fitness" width="1200">
 
-To make the graph readable, the graph was manually altered from the tEKG to color relations differently for demonstration purposes, as shown bellow. In these two groups, we observed a high degree of member turnover. 
+To make the graph readable, the graph was manually altered from the tEKG to color relations differently for demonstration purposes, as shown below. In these two groups, we observed a high degree of member turnover. 
 
 <img src="figures/Figure_Two_Groups_With_Lowest_Fitness.png" alt="Groups with Lowest Fitness" width="1200">
 
@@ -74,7 +74,7 @@ The schema is visualized here:
 
 <img src="figures/Figure_2024_Schema.png.png" width="300">
 
-The types of nodes and relations and the count of each elements are listed below for teh year 2024:
+The types of nodes and relations and the count of each elements are listed below for the year 2024:
 
 ```cypher
 // Retrieve node types and counts

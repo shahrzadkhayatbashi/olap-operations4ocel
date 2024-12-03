@@ -60,15 +60,7 @@ Here is the OC-DFG based on the drilled-down and unfolded log that enabled the d
 
 ## Lowest Fitness
 
-We investigated two groups with the lowest fitness after drilling down and unfolding, both of which belonged to 2024. Here are two groups and students who participated in those in addition to groups that they moved to:
-
-<img src="figures/Figure_2024_LoweFitnessGroupsBeforeManualChange.png" alt="Groups with Lowest Fitness" width="1200">
-
-To make the graph readable, the graph was manually altered from the tEKG to color relations differently for demonstration purposes, as shown below. In these two groups, we observed a high degree of member turnover. 
-
-<img src="figures/Figure_Two_Groups_With_Lowest_Fitness.png" alt="Groups with Lowest Fitness" width="1200">
-
-Here is also some information about the tEKG we exported for 2014:
+We investigated two groups with the lowest fitness after drilling down and unfolding, both of which belonged to 2024. Here is also some information about the tEKG we exported for 2024:
 
 The schema is visualized here:
 
@@ -106,6 +98,19 @@ tEKG size for 2024:
 | SNAPSHOT| Relationship | 1348   |
 
 * The size pertains to all events captured in the dataset. However, the case study specifically focuses on events related to submission boxes, where students submitted their assignments. Consequently, we filtered out events associated with course administration, as well as events such as students viewing materials, videos, or other unrelated activities.
+
+---
+
+### group analysis
+
+Here are two groups and students who participated in those in addition to groups that they moved to:
+
+<img src="figures/Figure_2024_LoweFitnessGroupsBeforeManualChange.png" alt="Groups with Lowest Fitness" width="1200">
+
+To make the graph readable, the graph was manually altered from the tEKG to color relations differently for demonstration purposes, as shown below. In these two groups, we observed a high degree of member turnover. 
+
+<img src="figures/Figure_Two_Groups_With_Lowest_Fitness.png" alt="Groups with Lowest Fitness" width="1200">
+
 
 ---
 

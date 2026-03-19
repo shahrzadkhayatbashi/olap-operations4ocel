@@ -14,3 +14,10 @@ Explore the example to gain a hands-on understanding of how multi-dimensional da
 Please look at the [case study summary](experiment-results/case_study_summary.md) for more  detailed report of the case study results, showcasing improvements in process model fitness and precision.
 
 Note: Due to confidentiality, the full code and raw data for the case study are not provided.
+
+3. Performance Evaluation using BPIC 2014, BPIC 2016, BPIC 207 and BPIC 2019
+The code to run performance evaluation and analysis can be found at the [PerformanceEvaluation Section.](PerformanceEvaluation) folder, where you can rerun the evaluation by:
+* downloading [Download BPICs OCELs](PerformanceEvaluation/DownloadBPICsOCELs.ipynb) notebook. 
+* Running [Performance Evaluation](PerformanceEvaluation/PerformanceEvaluation.ipynb) notebook. 
+* Running [Evaluation Result](PerformanceEvaluation/EvaluationResult.ipynb) notebook to compile the result.
+If you only want to see the evaluation result, you can simply look at the [Evaluation Result](PerformanceEvaluation/EvaluationResult.ipynb) notebook. 

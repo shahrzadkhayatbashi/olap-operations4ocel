@@ -1,2 +1,1 @@
-processmining
-pm4py
+processmining==1.0.19
